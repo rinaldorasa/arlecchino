@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ <meta name="generator" content="AlterVista - Editor HTML"/>
+
+<title>
+
+
+1600
+
+20201007
+
+
+</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+
+<!-- CDN -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet"> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+ 
+<script src="https://use.fontawesome.com/2d0876dd08.js"></script>
+
+
+<!-- personalizzazioni -->
+
+<!--
+<script src="base_dati.js"></script>
+
+<link rel="stylesheet" href="20200929-0830_bsn_global.css?12" />
+
+-->
+
+
+<style>
+body{ 
+ 
+ background-color:rgba(255,170,0,0.5);
+ background-image:url(guitars.png); background-repeat:repeat; 
+ background-attachment:fixed;
+ 
+ }
+
+</style>
+
+<style>
+.navbar-toggler {
+/* aggiunta class shadow-none */
+}
+
+</style>
+
+ 
+
+<style>
+ /* struttura dei dati */
+ 
+ section#sectionLISTA {
+ padding-top:5rem;
+ padding-bottom:5rem;
+ font-size:1rem; 
+ font-family:monospace; 
+ text-align:center; 
+ border:solid 0.1rem orange !important; 
+ }
+ 
+ article{ 
+ margin-top:4rem; margin-bottom:4rem;
+ padding-left:1rem; padding-right:1rem; }
+
+ div{vertical-align: middle;}
+ 
+ div.artdivLISTA1{ 
+ font-size:1em; 
+ font-weight:bold; 
+ font-family:'Courier New', Courier, monospace; }
+
+ div.artdivLISTA2>img { border:solid 0rem green; 
+ vertical-align: middle;}
+ 
+ img{ border-radius:.2rem; }
+ 
+ .artdivLISTA1, .artdivLISTA2, .artdivLISTA3
+ { border:solid 0.1rem rgba(255,170,0,.25); }
+ 
+ .artdivLISTA3{ font-size:1rem; text-align:left; }
+
+
+ .bordosolidnero{border:solid .1rem black;}
+ 
+ </style>
+ 
+
+
+
+</head>
+
+<body onload="attesax()">
+
+
+
+<!-- NAV INI -->
+
+
+<ul class="nav justify-content-center fixed-bottom" 
+style="
+background-color: rgba(255,170,0,0.85); 
+">
+
+
+<li>
+<span id="spinner" class="posizione_spinner fa fa-spinner fa-pulse" 
+style="left:0; color:maroon;"></span>
+</li>
+ <li class="">
+ <a class="nav-link active material-icons" aria-current="page" href="../index.html" style="color:gray; ">
+arrow_back_ios
+</a>
+ </li>
+ 
+ 
+<li class="nav-item">
+ <a class="material-icons" href="#fine" 
+ style=" 
+ margin-left:2em; margin-right:1em;
+ background-color:rgba(255,170,0,1);
+ color:maroon;
+ text-decoration: none; 
+ border:solid .1rem rgba(255,170,0,0.5);
+  border:solid 0rem black;
+ " >
+ arrow_downward
+ </a>
+</li>
+ 
+<li class="nav-item">
+ <a class="material-icons" href="#" 
+ style="
+ margin-left:1em; margin-right:1em;
+ background-color:rgba(255,170,0,1);
+ color:maroon; 
+ text-decoration: none;
+ border:solid .1rem rgba(255,170,0,0.5);" >
+ arrow_upward
+ </a>
+
+</li>
+
+</ul>
+
+
+
+<!-- NAV FIN -->
+
+
+
+
+
+
+<div id="fine"></div>
+
+<!-- sistemato in navbar 
+<div id="spinner" class="posizione_spinner fa fa-spinner fa-pulse" 
+style="position:fixed; top:0; left:0; color:maroon;">
+</div>
+ -->
+
+<script>
+ function attesa(){
+ if (document.all){}
+ else if (document.getElementById){
+ document.getElementById("spinner").style.visibility="hidden";
+ }
+ 
+ }
+ </script>
+ 
+
+</body>
+
+</html>
+
