@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="it">
+ <head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta name="viewport" content="minimum-scale=1">
+ <meta name="generator" content="AlterVista - Editor HTML"/>
+
+<title>
+
+0930
+ arlecchino
+ 20201012
+
+</title>
+ 
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+
+ <!-- CDN -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet"> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+ 
+<script src="https://use.fontawesome.com/2d0876dd08.js"></script>
+
+<!-- classes -->
+<style>
+/* classes x debugging */
+.bordonerosolid{ border:solid 0.1rem black; }
+.bordonerodashed{ border:solid 0.1rem black; }
+.bordonerodotted{ border:solid 0.1rem black; }
+
+.bordorossosolid{ border:solid 0.1rem red; }
+.bordorossodashed{ border:solid 0.1rem red; }
+.bordorossodotted{ border:solid 0.1rem red; }
+
+.bordoverdesolid{ border:solid 0.1rem green; }
+.bordoverdedashed{ border:solid 0.1rem green; }
+.bordoverdedotted{ border:solid 0.1rem green; }
+
+
+/* relativo al look */
+.bg_giallobsn{ background-color:rgba(255,170,0,1) }
+.giallobsn{ background-color:rgba(255,170,0,1); }
+.verdebsn{ background-color:rgba(0,85,85,1); }
+
+
+
+
+/* keywords x classes globali */
+html{
+ background-color:rgba(255,170,0,0.5);
+ background-image:url(guitars.png); 
+ background-repeat:repeat; 
+ background-attachment:fixed; 
+ font-size:1rem;
+ font-family:monospace;
+
+}
+
+
+
+/* footer */
+/* relativo agli ancoraggi interni */
+a#freccia_giu, a#freccia_su {margin-left:0.5rem;
+margin-right:0.5rem; color:maroon; text-decoration: none; }
+
+/* relativo al menu dropdown dropup */
+ div#footer_menu_lista{ display:inline-flex; }
+ .dropdown-toggle:after { content: none }
+ button#footer_dropdown_toggle{
+ box-shadow:none !important;
+ border:none !important;
+ background-color: rgba(255,170,0,1); }
+
+
+ 
+
+
+
+
+</style>
+
+
+</head>
+ <body onload="attesax()">
+
+ 
+ <main>
+
+
+
+
+ </main>
+ 
+
+
+
+<!-- 
+https://v5.getbootstrap.com/docs/5.0/components/dropdowns/	
+-->
+ 
+<footer id="footer_spinner_giu_su_menu"
+class="position-fixed bottom-0 left-0 
+rounded bg_giallobsn bordonerosolidx">
+
+<span id="spinner" 
+class="fa fa-spinner fa-pulse bg-transparent">
+</span>
+
+<a id="freccia_giu" 
+href="#fine" 
+class="material-icons">
+arrow_downward
+</a>
+
+<a id="freccia_su" 
+href="#" 
+class="material-icons">
+arrow_upward
+</a>
+
+
+<div id="footer_menu_lista" class="dropdown bordorossosolidx">
+ 
+ <button id="footer_dropdown_toggle" 
+ class="btn btn-secondary dropdown-toggle" 
+ type="button" 
+ id="dropdownMenuButton" 
+ data-toggle="dropdown" 
+ aria-expanded="false">
+ <span class="material-icons" 
+ style="font-size:1.5em;"
+ >menu
+ </span>
+ </button>
+ 
+ <ul class="dropdown-menu" 
+ aria-labelledby="dropdownMenuButton" 
+ style="display:inline-block; ">
+ <li><a class="dropdown-item" href="#">lista1</a></li>
+ <li><a class="dropdown-item" href="#">lista2</a></li>
+ <li><a class="dropdown-item" href="#">lista3</a></li>
+ </ul>
+ </div>
+
+
+<script>
+function attesa(){
+if (document.all){ }
+else if (document.getElementById){
+ document.getElementById("spinner").style.visibility="hidden";
+ }
+}
+</script>
+</footer>
+
+<div id="fine"></div>
+ <!-- Bootstrap Bundle with Popper.js -->
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+ </body>
+</html> 
