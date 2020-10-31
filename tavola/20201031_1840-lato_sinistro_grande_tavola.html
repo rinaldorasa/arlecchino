@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" 
+ content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta name="generator" content="AlterVista - Editor HTML"/>
+
+ <title>
+ 1840
+ 
+ 20201031
+ grandetavola 
+ 
+ </title>
+
+ <link rel="stylesheet" href="http://beatsupernovarasa.altervista.org/bs5/css/bootstrap.min.css">
+ <script src="http://beatsupernovarasa.altervista.org/bs5/js/bootstrap.min.js"></script>
+ <script src="http://beatsupernovarasa.altervista.org/bs5/js/bootstrap.bundle.min.js"></script>
+
+ 
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+ 
+<script src="https://use.fontawesome.com/2d0876dd08.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inconsolata:wght@500&family=PT+Mono&family=Roboto+Mono&display=swap" rel="stylesheet"> 
+
+<script src="base_dati.js"></script>
+
+
+<style>
+
+/*
+ google fonts 
+
+ font-family: 'Fira Code', monospace;
+
+ font-family: 'Inconsolata', monospace;
+
+ font-family: 'PT Mono', monospace;
+
+ font-family: 'Roboto Mono', monospace;
+
+*/
+html * {
+ font-family:monospace; 
+ font-family:'PT Mono';
+ font-family: 'Fira Code'; 
+ font-size:1rem !important;
+ 
+ /* font-family:'PT Mono'; */
+ }
+
+ html, body, main {
+ margin:0 auto !important;
+ }
+
+ /* 
+
+PERSONALIZZAZIONI
+
+ */
+
+ /* generiche */ 
+ :root {
+ --bsnr-giallo: rgba(255, 222, 123, 1);
+ --bsnr-giallo: rgba(255, 170, 0, 0.035);
+ --bsnr-html: rgba(235, 206, 122,0.5);
+ --bsnr-html: rgba(255, 170, 0, 0.035);
+ 
+ }
+ .visibile, .vedi{ visibility:visible; }
+ .niente{ visibility:hidden; }
+
+.bordonerosolid{ border:solid .2rem black !important; }
+.bordonerodashed{ border:dashed .2rem black !important; }
+.bordonerodotted{ border:dotted .2rem black !important; }
+.bordorossosolid{ border:solid .2rem red !important; }
+.bordorossodashed{ border:dashed .2rem red !important; }
+.bordorossodotted{ border:dotted .2rem red !important; }
+.bordoverdesolid{ border:solid .2rem green !important; }
+.bordoverdedashed{ border:dashed .2rem green !important; }
+.bordoverdedotted{ border:dotted .2rem green !important; }
+
+.bordohacking{ 
+/* border:solid .2rem var(--bsnr-giallo) !important; */ 
+visibility:visible;
+}
+
+
+/* particolari */
+.lato_sinistro_grande_tavola{width:5rem !important;}
+
+
+
+
+
+
+</style>
+
+
+
+
+
+</head>
+
+<body onload="attesax()">
+
+
+
+
+<main class="mt-5 bordoverdesolid">
+ <table class="table grande_tavola bordonerodotted">
+ <tbody>
+ <tr>
+ <td class="lato_sinistro_grande_tavola  bordonerodashed">
+ <div id="carosello_beat_active" 
+ style="width:5rem !important; overflow:auto; ">
+ </div>
+ <script>
+ var carica_carosello_beat_active = document.createElement("script");
+ var postfisso = new Date();
+ var nome ="http://beatsupernovarasa.altervista.org/gallery_beat_migr_from_active_test.js?";
+ nome = nome + postfisso;
+ carica_carosello_beat_active .src=nome;
+ document.getElementsByTagName("head")[0].appendChild(carica_carosello_beat_active);
+ </script>
+ 
+ </td>
+
+
+
+ <td>
+ 
+ <table class="table table-striped text-left bordonerosolidx">
+ 
+ <tr>
+ <td class="text-center">
+ <span style="font-size:2rem !important; font-variant:small-caps;"> 
+ Last News 
+ </span>
+ </td>
+ </tr>
+ 
+ </table>
+ 
+ 
+ 
+ 
+ </td> 
+
+
+
+
+ 
+ </tr>
+ </tbody>
+ </table>
+</main>
+
+
+
+
+<div id="fine"></div>
+ <div id="spinner" 
+ class="position-fixed top-0 left-0 
+ fa fa-spinner fa-pulse">
+</div>
+ <script>
+ function attesa(){
+ if (document.all){}
+ else if (document.getElementById){
+ document.getElementById("spinner").style.visibility="hidden";
+ }
+ 
+ }
+ </script>
+ 
+</body>
+
+</html>
+
+
+
+
+<!--
+135 are we really better? 
+-->
+
